@@ -1,0 +1,10 @@
+{
+    "entry": "HuHoBot_RC_WhiteList.js",
+    "name": "HuHoBot_RC_WhiteList",
+    "type": "lse-quickjs",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
