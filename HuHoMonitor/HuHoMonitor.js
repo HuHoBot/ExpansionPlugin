@@ -100,6 +100,7 @@ function getServerInfo(){
 
 mc.listen("onServerStarted",()=>{
     regCallbackEvent("run","服务器状态",Callback)
+    regCallbackEvent("runAdmin","服务器状态",Callback)
     getServerInfo() //初始化
     setInterval(getServerInfo,5*1000); //定时五秒查询
 })
