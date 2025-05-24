@@ -1,0 +1,10 @@
+{
+    "entry": "HuHoWhiteList.js",
+    "name": "HuHoWhiteList",
+    "type": "lse-quickjs",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
